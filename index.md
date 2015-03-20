@@ -1,4 +1,4 @@
 #This is my first markdown.
-* This is a list:
+Bullets:
 1. first item
 2. second item
