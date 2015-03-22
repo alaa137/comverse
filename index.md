@@ -64,3 +64,13 @@ Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Medi
 #####Incestors
 #####Partners
 #####Careers
+
+*LATEST BLOG POSTS*
+18 JULY
+Comverse Regains Lead in Convergent Charging Market
+
+*SUBSCRIBE*
+`ronit.klein@gmail.com` | `SIGN UP`
+
+
+######Copyright@ 2012 Comverse, Inc. | Privacy Policy
