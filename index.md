@@ -1,8 +1,7 @@
 ##Comverse
 #### YOUR NEEDS  |  OUR PORTFOLIO   |   NEWS & DATA    |    ABOUT COMVERSE
 
-| SEARCH        |
-| ------------- |:
+`SEARCH`
 
 | EN :arrow_down:       | Customer Login    |
 | ------------- |:-------------:|
@@ -13,7 +12,7 @@ Comverse Policy Studio
 
 **1st** Ever Marketign-Oriented Policy Tool
 
-###LEARN MORE
+####`LEARN MORE` :arrow_right:
 
 | Comverse Is Value-Added Service  | Managed Services World    | Comverse: Enabling a world of Connected Possibilities|
 | ------------- |:-------------:| -----:|
@@ -28,7 +27,18 @@ Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Medi
 
 #SUCCESS STORIES
 
-| We have good relations...        |  |  |
+|         |  We have good relations...|  |
 | ------------- |:------------- |:------------- |:
 | MOB      |  | |
 | CYCLE      | BUL | GEMPLUS |
+
+
+| MTC        |  CABLE AND WIRELESS| International  |
+| ------------- |:------------- |:------------- |:
+|      | Comverse | |
+|     | ADALE KEHASSAN |  |
+
+| Comverse has been able...        |  |
+| ------------- |:------------- |:
+|   RAVISHANKER   |  |
+|   hp  | Atos |
