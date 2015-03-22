@@ -65,15 +65,13 @@ Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Medi
 #####Partners
 #####Careers
 
-**LATEST BLOG POSTS**
+**`LATEST BLOG POSTS`**
 
 18 JULY
 
 Comverse Regains Lead in Convergent Charging Market
 
-
-
-**SUBSCRIBE**
+**`SUBSCRIBE`**
 
 `ronit.klein@gmail.com` | `SIGN UP`
 
