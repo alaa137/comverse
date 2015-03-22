@@ -23,5 +23,5 @@ Comverse Policy Studio
 
 Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Media
 
-| See all of our solutions =>        |
+| See all of our solutions :arrow_right:        |
 | ------------- |:
