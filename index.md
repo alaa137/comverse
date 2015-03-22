@@ -1,1 +1,2 @@
-###|Header |Column 1 | Column 2 | Column 3  |
+|Header |Column 1 | Column 2 | Column 3  | 
+|:--- |:---- |:----:| ----:|
