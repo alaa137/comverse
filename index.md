@@ -1,2 +1,2 @@
-##Comverse    ####YOUR NEEDS |   ####OUR PORTFOLIO
+##Comverse    ####YOUR NEEDS
 ****
