@@ -27,7 +27,7 @@ Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Medi
 
 #WHAT'S HAPPENING AT COMVERSE?
 
-| NEWS  | EVENTS    | 
+| NEWS  | EVENTS    |  |
 | ------------- |:-------------:| -----:|
 | 04 SEP      | 04 SEP | 04 SEP |
 | All News      | All Events | All Events|
