@@ -28,7 +28,7 @@ Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Medi
 
 #SUCCESS STORIES
 
-| We have good relations...        | sfd | sfsd |
+| We have good relations...        |  |  |
 | ------------- |:------------- |:------------- |:
-| MOB      |  d| d|
+| MOB      |  | |
 | CYCLE      | BUL | GEMPLUS |
