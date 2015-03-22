@@ -25,3 +25,10 @@ Data monetization	|	M2M | OTT | Cloud Computing | Managed Services | Social Medi
 
 | See all of our solutions :arrow_right:        |
 | ------------- |:
+
+#SUCCESS STORIES
+
+| We have good relations...        |
+| ------------- |:
+| MOB      | | |
+| CYCLE      | BUL | GEMPLUS |
