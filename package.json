@@ -1,0 +1,27 @@
+{
+  "name": "comverse",
+  "version": "1.0.0",
+  "description": "git project",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-contrib-uglify": "^0.8.0",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alaa137/comverse.git"
+  },
+  "keywords": [
+    "comverse"
+  ],
+  "author": "alaam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alaa137/comverse/issues"
+  },
+  "homepage": "https://github.com/alaa137/comverse"
+}
