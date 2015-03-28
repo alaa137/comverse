@@ -23,5 +23,5 @@ module.exports = function(grunt){
 	})
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.registerTask('default',['uglify:dist']);
-grunt.validation('grunt-html-validation');
+grunt.loadNpmTasks('grunt-html-validation');
 };
