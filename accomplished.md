@@ -1,3 +1,3 @@
 ##Accomplished Stuff
-* markdown of [comverse.com](comverse.com) 
-* html of [comverse.com](comverse.com) 
+* markdown of [comverse.com](http://www.comverse.com) 
+* html of [comverse.com](http://www.comverse.com) 
