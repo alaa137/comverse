@@ -11,8 +11,17 @@ module.exports = function(grunt){
 						dest: 'build/<%= pkg.name %>.min.js'
 				}
 			}
+		},
+		validation: {
+			options:{
+				reset: true
+			}
+			files:{
+				src:  ['*.html']
+			}
 		}
 	})
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.registerTask('default',['uglify:dist']);
+NpmTasks('grunt-html-validation');
 };
