@@ -1,1 +1,1 @@
-Images File
+Images Folder
