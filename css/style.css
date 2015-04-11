@@ -1,5 +1,56 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-#css-test{
-  background-color: red;
+:focus {
+  outline: none;
+}
+
+body{
+	background-image: url(img/wallpaper.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul.special_ul{
+    list-style-type: circle;
+}
+
+.copy-right{
+	opacity: 0.8;
+}
+
+input[type="submit"] {
+	box-shadow: 7px 7px 5px #888888;
+}
+
+input[type="submit"]:active {
+	box-shadow: 2px 2px 5px #888888;
+}
+
+
+a:hover{
+	background: linear-gradient(aqua,DeepSkyBlue);
+}
+
+button{
+	border: 2px solid;
+    border-radius: 10px;
+	padding: 10px;
+	transition: background-color 1s;
+}
+
+button:hover{
+	border: 2px solid;
+    border-radius: 10px;
+	padding: 10px;
+	background-color: gray;
+}
+
+.animated_story {
+    width: 100px;
+	transition: font-size 1s;
+}
+
+.animated_story:hover {
+	font-size: 200%;
 }
