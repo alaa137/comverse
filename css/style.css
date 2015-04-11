@@ -19,6 +19,34 @@ ul.special_ul{
 	opacity: 0.8;
 }
 
+.article_nav article{
+    background: linear-gradient(pink,white);
+    width: 200px;
+    padding: 25px;
+    border: 2px solid navy;
+	border-radius: 5px;
+    margin: 25px;
+	display: inline-block;
+}
+
+.article_nav article:nth-child(1n){
+	background: linear-gradient(HotPink,white);
+}
+.article_nav article:nth-child(2n){
+	background: linear-gradient(LimeGreen,white);
+}
+.article_nav article:nth-child(3n){
+	background: linear-gradient(orange,white);
+}
+
+.article_nav article a{
+	display: block;
+}
+
+.article_nav article a::before{
+	content: url(../img/btnArrow.png);
+}
+	
 input[type="submit"] {
 	box-shadow: 7px 7px 5px #888888;
 }
