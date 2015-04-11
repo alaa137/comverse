@@ -2,16 +2,13 @@
 
 <html lang="en">
 <head>
-  <link rel="https://rawgit.com/alaa137/comverse/gh-pages/css/style.css">
-  <meta charset="utf-8">
-  <title>Comverse</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<title>Comverse</title>
 </head>
 <body>
   <img src="img/comverse-logo.png" alt="logo">
   
-  <div id="css-test">
-    CSS TEST
-  </div>
   <header>
     <!--Navigation Toolbar -->
     <nav>
@@ -37,7 +34,7 @@
     </select>
   | <a href = "">Customer Login</a>
   <!-- Search Bar -->
-  <form action="https://www.google.com">
+  <form action="">
     <input type="text" name="itemforsearch">
     <input type="submit">
   </form>
@@ -70,7 +67,7 @@
   <section class="context">
   <h1>WHAT CAN WE DO FOR YOU?</h1>
   <nav>
-    <ul>
+    <ul class="special_ul">
       <li>
         <a href = "">Data Monetization</a>
       </li>
@@ -98,7 +95,7 @@
   <div class = "events">
       <h1>WHAT'S HAPPENING AT COMVERSE?</h1>
       <nav>
-        <ul>
+        <ul class="special_ul">
           <li>
             <a href = "">NEWS</a>
           </li>
@@ -113,15 +110,21 @@
   <section class="context">
     <div class="stories">
       <h2>SUCCESS STORIES</h2>
-      <ul>
+      <ul class="special_ul">
         <li>
+		<div class="animated_story">
           Story 1
+		</div>
         </li>
         <li>
+		<div class="animated_story">
           Story 2
+		 </div>
         </li>
         <li>
+		<div class="animated_story">
           Story 3
+		 </div>
         </li>
       </ul>
       <button>ALL 256 Success Stories</button>
@@ -129,7 +132,7 @@
   </section>
 
   <footer>
-  <ul>
+  <ul class="special_ul">
     <li>
       <b>KEY SOLUTIONS</b>
     </li>
@@ -162,7 +165,7 @@
     </li>
   </ul>
   
-  <ul>
+  <ul class="special_ul">
     <li>
       <b>PRODUCTS &amp; SERVICES</b>
     </li>
@@ -183,7 +186,7 @@
     </li>
   </ul>
   
-  <ul>
+  <ul class="special_ul">
     <li>
       <b>COMPANY</b>
     </li>
@@ -211,14 +214,14 @@
   </ul>
   <div>
     <h3>LATEST BLOG POSTS</h3>
-    <p>Comverse regains lead... 18 JULY</p>
+    <p itemscope>Comverse regains lead... <span itemprop="date">18 July</span></p>
     <p>SUBSCRIBE TO COMVERSE</p>
-    <form action="https://www.google.com">
+    <form action="">
     <input type="text" name="email_sub">
     <input type="submit" value="SIGN UP">
   </form>
   </div>
-  <section><h5>Copyright@ 2012 Comverse, Inc. | Privacy Policy</h5></section>
+  <section class="copy-right"><h5>Copyright@ 2012 Comverse, Inc. | Privacy Policy</h5></section>
 </footer>
 </body>
 </html>
