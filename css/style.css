@@ -1,56 +1,227 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+<!DOCTYPE html>
 
-:focus {
-  outline: none;
-}
+<html lang="en">
+<head>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<meta charset="utf-8">
+	<title>Comverse</title>
+</head>
+<body>
+  <img src="img/comverse-logo.png" alt="logo">
+  
+  <header>
+    <!--Navigation Toolbar -->
+    <nav>
+      <ol>
+        <li>
+          <a href = "">YOUR NEEDS</a>
+        </li>
+        <li>
+          <a href = "">OUR PORTFOLIO</a>
+        </li>
+        <li>
+          <a href = "">NEWS &amp; MEDIA</a>
+        </li>
+        <li>
+          <a href = "">ABOUT COMVERSE</a>
+        </li>
+      </ol>
+    </nav>
+    <!--Change Language Dropdown Menu-->
+    <select>
+      <option value="english">EN</option>
+      <option value="hebrew">HB</option>
+    </select>
+  | <a href = "">Customer Login</a>
+  <!-- Search Bar -->
+  <form action="">
+    <input type="text" name="itemforsearch">
+    <input type="submit">
+  </form>
+</header>
 
-body{
-	background-image: url(../img/wallpaper.jpg);
-	background-repeat: no-repeat;
-    background-attachment: fixed;
-	font-family: 'Open Sans', sans-serif;
-}
+  <section class="introduction">
+  <div class = "intro">
+    <h2>Free Your Markets From IT Complexity</h2>
+    <aside>Comverse Policy Studio
+    <br>1st Ever Marketing-Oriented Policy Tool</aside>
+    <button>LEARN MORE</button>
+  </div>
+  
+  <div class = "article_nav">
+    <article>
+      <h3>Comverse Is Value-Added Service Global Market Leader</h3>
+      <p><a href = "">Read More</a></p>
+    </article>
+    <article>
+      <h3>Managed Services World Congress September 18-19 Berlin, Germany</h3>
+      <p><a href = "">Read More</a></p>
+    </article>
+    <article>
+      <h3>Comverse: Enabling a world of Connected Possibilites</h3>
+      <p><a href = "">Watch Now</a></p>
+    </article>
+  </div>
+</section>
 
-ul.special_ul{
-    list-style-type: circle;
-}
+  <section class="context">
+  <h1>WHAT CAN WE DO FOR YOU?</h1>
+  <nav>
+    <ul class="special_ul">
+      <li>
+        <a href = "">Data Monetization</a>
+      </li>
+      <li>
+        <a href = "">M2M</a>
+      </li>
+      <li>
+        <a href = "">OTT</a>
+      </li>
+      <li>
+        <a href = "">Cloud Computing</a>
+      </li>
+      <li>
+        <a href = "">Managed Services</a>
+      </li>
+      <li>
+        <a href = "">Social Media</a>
+      </li>
+    </ul>
+  </nav>
+  <button>See all of our solutions</button>
+</section>
 
-.copy-right{
-	opacity: 0.8;
-}
+  <section class="context">
+  <div class = "events">
+      <h1>WHAT'S HAPPENING AT COMVERSE?</h1>
+      <nav>
+        <ul class="special_ul">
+          <li>
+            <a href = "">NEWS</a>
+          </li>
+          <li>
+            <a href = "">EVENTS</a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+</section>
+  
+  <section class="context">
+    <div class="stories">
+      <h2>SUCCESS STORIES</h2>
+      <ul class="special_ul">
+        <li>
+		<div class="animated_story">
+          Story 1
+		</div>
+        </li>
+        <li>
+		<div class="animated_story">
+          Story 2
+		 </div>
+        </li>
+        <li>
+		<div class="animated_story">
+          Story 3
+		 </div>
+        </li>
+      </ul>
+      <button>ALL 256 Success Stories</button>
+    </div>
+  </section>
 
-input[type="submit"] {
-	box-shadow: 7px 7px 5px #888888;
-}
-
-input[type="submit"]:active {
-	box-shadow: 2px 2px 5px #888888;
-}
-
-
-a:hover{
-	background: linear-gradient(aqua,DeepSkyBlue);
-}
-
-button{
-	border: 2px solid;
-    border-radius: 10px;
-	padding: 10px;
-	transition: background-color 1s;
-}
-
-button:hover{
-	border: 2px solid;
-    border-radius: 10px;
-	padding: 10px;
-	background-color: gray;
-}
-
-.animated_story {
-    width: 100px;
-	transition: font-size 1s;
-}
-
-.animated_story:hover {
-	font-size: 200%;
-}
+  <footer>
+  <ul class="special_ul">
+    <li>
+      <b>KEY SOLUTIONS</b>
+    </li>
+    <li>
+      <a href = "">Data</a>
+    </li>
+      <li>
+      <a href = "">OTT</a>
+    </li>
+      <li>
+      <a href = "">M2M</a>
+    </li>
+      <li>
+      <a href = "">CC</a>
+    </li>
+      <li>
+      <a href = "">MS</a>
+    </li>
+      <li>
+      <a href = "">CEM</a>
+    </li>
+      <li>
+      <a href = "">RCS</a>
+    </li>
+      <li>
+      <a href = "">Social Media</a>
+    </li>
+      <li>
+      <a href = "">4G/LTE</a>
+    </li>
+  </ul>
+  
+  <ul class="special_ul">
+    <li>
+      <b>PRODUCTS &amp; SERVICES</b>
+    </li>
+    <li>
+      <a href = "">Billing</a>
+    </li>
+      <li>
+      <a href = "">VAS</a>
+    </li>
+      <li>
+      <a href = "">Mpbile</a>
+    </li>
+      <li>
+      <a href = "">Global</a>
+    </li>
+      <li>
+      <a href = "">Training</a>
+    </li>
+  </ul>
+  
+  <ul class="special_ul">
+    <li>
+      <b>COMPANY</b>
+    </li>
+    <li>
+      <a href = "">profiles</a>
+    </li>
+      <li>
+      <a href = "">clients</a>
+    </li>
+      <li>
+      <a href = "">investors</a>
+    </li>
+      <li>
+      <a href = "">partners</a>
+    </li>
+      <li>
+      <a href = "">responsibilities</a>
+    </li>
+      <li>
+      <a href = "">industry</a>
+    </li>
+      <li>
+      <a href = "">careers</a>
+    </li>
+  </ul>
+  <div>
+    <h3>LATEST BLOG POSTS</h3>
+    <p itemscope>Comverse regains lead... <span itemprop="date">18 July</span></p>
+    <p>SUBSCRIBE TO COMVERSE</p>
+    <form action="">
+    <input type="text" name="email_sub">
+    <input type="submit" value="SIGN UP">
+  </form>
+  </div>
+  <section class="copy-right"><h5>Copyright@ 2012 Comverse, Inc. | Privacy Policy</h5></section>
+</footer>
+</body>
+</html>
