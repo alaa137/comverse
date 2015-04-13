@@ -4,6 +4,19 @@
   outline: none;
 }
 
+header{
+	background: white;
+	position: fixed;
+	height: 90px;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+
+.wrapper{
+	padding-top: 90px;
+}
+
 header ol{
 	list-style-type: none;
 	padding: 0px;
@@ -30,6 +43,7 @@ header ol li:hover{
 header ol li:hover .insider_ul{
 	display: block;
 	padding: 0px;
+	position: absolute;
 }
 
 header *{
@@ -52,6 +66,7 @@ body{
 	background-image: url(../img/wallpaper.jpg);
 	background-repeat: no-repeat;
     background-attachment: fixed;
+	
 }
 
 .events{
