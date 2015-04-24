@@ -1,5 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
+*{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
 :focus {
   outline: none;
 }
@@ -71,12 +77,78 @@ ul.insider_ul{
 	color: black;
 }
 
-*{
-	font-family: 'Open Sans', sans-serif;
-	margin-left: 0px;
-	margin-right: 0px;
+.special_ul li{
+    padding-right: 30px;
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
 }
+.special_ul li a{
+    display: inline-block;
+    margin: 0 auto;
+ }
 
+.special_ul_1{
+	background: url("../img/solution_icon_biz-analitics.png") no-repeat center center;
+	display:block;
+    margin: 0 auto;
+	height: 63px;
+ }
+.special_ul li:hover .special_ul_1{
+	background: url("../img/solution_icon_biz-analitics_hover.png") no-repeat center center;
+ }
+ 
+.special_ul_2{
+	background: url("../img/solution_icon_biz-transform.png") no-repeat center center;
+	display:block;
+    margin: 0 auto;
+	height: 63px;
+ }
+.special_ul li:hover .special_ul_2{
+	background: url("../img/solution_icon_biz-transform_hover.png") no-repeat center center;
+ }
+ 
+.special_ul_3{
+	background: url("../img/solution_icon_diti-cx.png") no-repeat center center;
+	display:block;
+    margin: 0 auto;
+	height: 63px;
+ }
+.special_ul li:hover .special_ul_3{
+	background: url("../img/solution_icon_diti-cx_hover.png") no-repeat center center;
+ }
+ 
+.special_ul_4{
+	background: url("../img/solution_icon_optimize-efficnt.png") no-repeat center center;
+	display:block;
+    margin: 0 auto;
+	height: 63px;
+ }
+.special_ul li:hover .special_ul_4{
+	background: url("../img/solution_icon_optimize-efficnt_hover.png") no-repeat center center;
+ }
+ 
+.special_ul_5{
+	background: url("../img/solution_icon_personal.png") no-repeat center center;
+	display:block;
+    margin: 0 auto;
+	height: 63px;
+ }
+.special_ul li:hover .special_ul_5{
+	background: url("../img/solution_icon_personal_hover.png") no-repeat center center;
+ }
+ 
+.special_ul_6{
+	background: url("../img/solution_icon_smart-money.png") no-repeat center center;
+	display:block;
+    margin: 0 auto;
+	height: 63px;
+ }
+.special_ul li:hover .special_ul_6{
+	background: url("../img/solution_icon_smart-money_hover.png") no-repeat center center;
+ }
+ 
+ 
 .introduction, .context, .events, footer {
 	padding-left: 200px;
 }
@@ -245,13 +317,115 @@ input[type="text"]{
 	border-radius: 4px;
 }
 
-.animated_story {
-    width: 110px;
-	transition: font-size 1s;
+.success_stories_list > li {
+  display: inline-block;
+  width: 32%;
+  float: left;
+  margin: 4px;
+  padding: 2px;
+}
+.success_stories_list > li > section {
+  padding: 10px;
+  margin: 0 auto;
+  background: #FFF;
+  border-radius: 3px;
+}
+.success_stories_list > li > section a{
+  transition: color 1s, font-size 1s;
+  text-decoration: none;
+}
+.success_stories_list > li > section a:hover {
+	color: OrangeRed;
+	font-size: 102%;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 20px;
 }
 
-.animated_story:hover {
-	font-size: 200%;
+section.no_picture{
+	width: 250px;
+}
+
+.success_stories_list > li > section > a  > img {
+  float: left;
+  margin-left: 2px;
+  padding-right: 10px;
+}
+.success_stories_list > li > section > a > p {
+  border-bottom: 1px solid LightGray;
+  margin: 0 auto;
+  height: 110px;
+}
+.success_text {
+  display: inline-block;
+}
+.success_text > p {
+  margin: 0 auto;
+  padding: 2px;
+}
+.success_text > p > a {
+  text-decoration: none;
+  color: blue;
+}
+.person_pic {
+  float: right;
+  max-width: 100px;
+}
+.company {
+  display: inline-block;
+  margin: 10px 6px 0 0;
+  background: #FFFFFF;
+  width: 31%;
+  border-radius: 3px;
+  text-align: center;
+}
+
+img{
+  vertical-align: middle;
+}
+.company:last-child {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  background: #FFFFFF;
+  width: 31%;
+  border-radius: 3px;
+  text-align: center;
+}
+.logos{
+	text-align: center;
+}
+
+.logos_top {
+  margin-bottom: 10px;
+}
+.logos_top > .company {
+  display: inline-block;
+  margin: 0 6px 0 0;
+  background: #FFFFFF;
+  width: 31%;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: top;
+}
+.logos_top > .company:last-child {
+  display: inline-block;
+  margin: 0;
+  background: #FFFFFF;
+  width: 31%;
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.company{
+	opacity: 0.7;
+	transition: opacity 1s;
+}
+.company:hover{
+	opacity: 1;
 }
 
 footer{
