@@ -196,6 +196,47 @@ select.language{
 	background-size: cover;
 	box-shadow: 0px 2px 10px 0px gray;
 	position: relative;
+	transition: all 1s ease-in;
+}
+
+ol.slideshow{
+	margin: 10px auto;
+	max-width: 1000px;
+	padding-left: 0px;
+}
+
+
+ol.slideshow li{
+	width: 11px;
+	height: 11px;
+	border-radius: 2px;
+	background-color: LightGray;
+	float: left;
+	margin: 3px;
+}
+
+ol.slideshow li{
+	cursor: pointer;
+}
+
+ol.slideshow li{
+	list-style-type: none;
+}
+
+ol.slideshow li:first-child{
+	margin-left: 0px !important;
+}
+
+ol.slideshow li:hover{
+	box-shadow: 0px 0px 5px #fff;
+}
+
+ol.slideshow li:active{
+	background-color: gray;
+}
+
+ol.slideshow li.slideshow_1{
+	
 }
 
 .events{
