@@ -10,8 +10,10 @@
   outline: none;
 }
 
-h1,h2{
-	margin: 0px;
+h2{
+	margin: 0 auto;
+	max-width:430px;
+	text-align: center;
 }
 
 aside{
@@ -313,7 +315,6 @@ list-style-type: none;
 	word-wrap: break-word;
 	display: block;
 	color: white;
-	transition: opacity 1s;
 }
 .events_item:hover{
 	opacity: 0.7;
@@ -393,6 +394,13 @@ button, input[type="submit"]{
 	background: #43afd7;
 	opacity: 1.0;
 	color: white;
+	text-align: center;
+}
+
+.centered_button{
+	margin: 0 auto;
+	max-width: 200px;
+	text-align: center;
 }
 
 button:hover , input[type="submit"]:hover{
@@ -514,7 +522,7 @@ img{
   vertical-align: top;
 }
 
-.company{
+.company {
 	opacity: 0.7;
 	transition: opacity 1s;
 }
