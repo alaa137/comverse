@@ -2,9 +2,9 @@
 
 <html lang="en">
 <head>
-	<meta name="viewport" width="device-width">
 	<link href="css/style.css" rel="stylesheet" type="text/css" />
 	<meta charset="utf-8">
+	<meta name="viewport" width="device-width">
 	<title>Comverse</title>
 </head>
 <body>
@@ -14,8 +14,10 @@
 <header>
 	<div class="header_bar">
 		<!--Logo-->
+		<div class="hamburger_bg"><nav class="hamburger_mobile"></nav></div>
 		<a href="index.html" class="c_logo"><img src="img/comverse-logo.png" alt="logo"></a>
 		<!--Navigation Toolbar -->
+		
 		<nav class="c_nav">
 			<ul class="clearfix">
 			  <li><a href="">YOUR NEEDS</a>
@@ -68,12 +70,16 @@
 		  <option value="english">EN</option>
 		  <option value="hebrew">HB</option>
 		</select>
-		<span>|</span> <a href = "">Customer Login</a>
+		<span class="nav_pipe">|</span> <div class="login_link"><a href = "">Customer Login</a></div>
 		<!-- Search Bar -->
-		<form action="index.html">
-		<input type="text" name="itemforsearch">
+		
+		<div class="search_bg">
+			<div class="search_icon"></div>
+		</div>
+		<form action="index.html" class="search_form">
+			<input type="text" name="itemforsearch">
 		</form>
-	</div>
+	
 </header>
 
 <div class="wrapper">

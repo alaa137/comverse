@@ -40,3 +40,39 @@ slideshow_icon_1.addEventListener("click",function(){slideShow(1);});
 slideshow_icon_2.addEventListener("click",function(){slideShow(2);});
 slideshow_icon_3.addEventListener("click",function(){slideShow(3);});
 slideshow_icon_4.addEventListener("click",function(){slideShow(4);});
+
+c_nav_display = 1;
+document.querySelector(".hamburger_bg").addEventListener("click",function(){
+	
+	if(c_nav_display)
+	{
+		document.querySelector(".c_nav").style.display= "block";
+		c_nav_display = 0;
+		
+		document.querySelector(".search_form").style.display = "none";
+		search_box = 1;
+	}
+	else
+	{
+		document.querySelector(".c_nav").style.display = "none";
+		c_nav_display = 1;
+	}
+});
+
+search_box = 1;
+document.querySelector(".search_bg").addEventListener("click",function(){
+	
+	if(search_box)
+	{
+		document.querySelector(".search_form").style.display= "block";
+		search_box = 0;
+		
+		document.querySelector(".c_nav").style.display= "none";
+		c_nav_display = 1;
+	}
+	else
+	{
+		document.querySelector(".search_form").style.display = "none";
+		search_box = 1;
+	}
+});
