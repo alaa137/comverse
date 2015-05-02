@@ -168,7 +168,10 @@ header{
 		width: 40% !important;
 		height: 40% !important;
 	}
-
+	.company img{
+		width: 100% !important;
+		height: 100% !important;
+	}
 	.person_pic img{
 		width: 70% !important;
 		height: 70% !important;
