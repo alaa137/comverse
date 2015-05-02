@@ -136,6 +136,7 @@ header{
 		border-radius: 4px !important;
 		vertical-align: middle;
 		line-height: 20px;
+		transition: width 1s, height 1s, font-size 1s;
 	}
 	ol li:before {
 	  content: counter(item) " ";
@@ -163,18 +164,21 @@ header{
 
 	.success_stories_list li{
 		font-size: 70%;
+		transition: font-size 1s;
 	}
 	.success_stories_list li section img{
 		width: 40% !important;
 		height: 40% !important;
+		transition: width 1s, height 1s;
 	}
 	.company img{
 		width: 100% !important;
-		
+		transition: width 1s;
 	}
 	.person_pic img{
 		width: 70% !important;
 		height: 70% !important;
+		transition: width 1s, height 1s;
 	}
 	
 	.person_pic{
@@ -183,6 +187,7 @@ header{
 	.company{
 		width: 20% !important;
 		height: 20% !important;
+		transition: width 1s, height 1s;
 	}
 }
 @media screen and (max-width: 858px){
@@ -201,9 +206,10 @@ header{
 		width: 20%;
 		height: 20%;
 		font-size: 70%;
+		transition: width 1s, height 1s, font-size 1s;
 	}
 }
-@media screen and (max-width: 415px){
+@media screen and (max-width: 455px){
 	.success_stories_list a > p{
 		display: none;
 	}
@@ -377,6 +383,7 @@ ol.slideshow li{
 	background-color: LightGray;
 	float: left;
 	margin: 3px;
+	transition: width 1s, height 1s;
 }
 
 ol.slideshow li{
