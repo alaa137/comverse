@@ -204,8 +204,8 @@ header{
 	}
 }
 @media screen and (max-width: 415px){
-		display: none;
 	.success_stories_list a > p{
+		display: none;
 	}
 }
 
